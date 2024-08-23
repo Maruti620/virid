@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header .nav-links li {
+    margin: 0 15px;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header .nav-links a:hover {
+    color: #04f7c7;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 237, 237);
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #a918bc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background-color: #16a085;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #18bc9c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #16a085;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
